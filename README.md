@@ -33,7 +33,7 @@ Supply-chain matching platform: FastAPI + PostgreSQL backend running an **NSGA-I
 | 💼 [portfolio](https://github.com/igor-vuta/portfolio) | Editorial one-pager, hand-rolled animations, 0 UI libs | [Live](https://igor-vuta.github.io/portfolio/) |
 | 🚜 [drivePro-website](https://github.com/igor-vuta/drivePro-website) | Bilingual (RU/KK) site for an equipment-hire company | [Live](https://igor-vuta.github.io/drivePro-website/) |
 | 💱 [currency-exchange-bot](https://github.com/igor-vuta/currency-exchange-bot) | Button-only Telegram bot, dual data sources | [@currenvy_bot_for_demo_bot](https://t.me/currenvy_bot_for_demo_bot) |
-| ✅ [todo-webapp-refactored](https://github.com/igor-vuta/todo-webapp-refactored) | Full-stack tasks app — PHP 8.2, MySQL, JWT, Docker | screenshots in repo |
+| ✅ [todo-webapp-refactored](https://github.com/igor-vuta/todo-webapp-refactored) | Full-stack tasks app — PHP 8.2, MySQL, JWT, Docker | [Live](https://todo-app-production-5509.up.railway.app/) |
 | 📂 [vue-folder-tree](https://github.com/igor-vuta/vue-folder-tree) | Accessible, animated Vue 3 tree component | — |
 | ⚡ [react-starter-pro](https://github.com/igor-vuta/react-starter-pro) | React 19 + Vite starter with lint/hooks/CI hygiene | — |
 
