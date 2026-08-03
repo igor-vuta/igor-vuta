@@ -1,8 +1,8 @@
 <div align="center">
 
-# Igor Vuta
+![banner](https://capsule-render.vercel.app/api?type=waving&height=170&color=3C3B6E&text=Igor%20Vuta&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=software%20developer&descSize=18&descAlignY=58&animation=fadeIn)
 
-**Software developer — Python · TypeScript · FastAPI · Next.js**
+[![Typing intro](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1200&center=true&vCenter=true&width=560&color=C15F3C&lines=Python+%C2%B7+TypeScript+%C2%B7+FastAPI+%C2%B7+Next.js;backends%2C+and+the+web+apps+on+top+of+them;a+result+without+a+distribution+is+an+anecdote)](https://igor-vuta.github.io/portfolio/)
 
 First-Class BSc (Hons) Computer Science · De Montfort University, Leicester, UK
 
@@ -10,11 +10,17 @@ First-Class BSc (Hons) Computer Science · De Montfort University, Leicester, UK
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-igor--vuta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/igor-vuta-b88017390)
 [![Email](https://img.shields.io/badge/Email-igor__vuta%40proton.me-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:igor_vuta@proton.me)
 
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Fireworks.png" width="52" alt="fireworks" />
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Eagle.png" width="52" alt="eagle" />
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Statue%20of%20Liberty.png" width="52" alt="Statue of Liberty" />
+
+*Life, liberty, and the pursuit of reproducible benchmarks.*
+
 </div>
 
 ---
 
-## Hi 👋
+## Hi <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="30" alt="waving hand" />
 
 I write backends and the web apps that sit on top of them, and I have an unreasonable soft spot for the part most people skip: proving the thing actually works.
 
@@ -22,7 +28,7 @@ A benchmark from a single run tells you almost nothing — change the seed and i
 
 That habit came out of my degree and never left. Give me a dataset and I'll happily lose an evening to it.
 
-## What I've been building
+## What I've been building <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="30" alt="rocket" />
 
 ### Intelli-Factory — final-year project
 
@@ -45,7 +51,7 @@ Also 51 pytest tests (TDD on the engine) and OWASP-aligned security — Argon2id
 
 > Heads up: the API sits on a free tier and falls asleep. Open the register page and give it ~90 seconds to wake up before assuming it's broken.
 
-### Everything else
+### Everything else <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" width="26" alt="sparkles" />
 
 | Project | What it is | Live |
 |---|---|---|
@@ -71,7 +77,7 @@ Also 51 pytest tests (TDD on the engine) and OWASP-aligned security — Argon2id
 
 Alongside those: DEAP for evolutionary algorithms, pandas and NumPy when I'm poking at data, and Recharts when a result needs to be looked at rather than read.
 
-## Currently
+## Currently <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkler.png" width="30" alt="sparkler" />
 
 Looking for **entry-level software or web developer roles in the UK**. I'm on the Graduate Route with full-time work rights, so no sponsorship needed.
 
@@ -80,3 +86,18 @@ Certified: Meta Front-End Developer · Palo Alto Cybersecurity Foundation · Red
 If you've got a problem where the right approach isn't obvious and someone needs to measure which one actually wins — that's the job I want.
 
 Reach me at [igor_vuta@proton.me](mailto:igor_vuta@proton.me).
+
+---
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/igor-vuta/igor-vuta/output/github-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/igor-vuta/igor-vuta/output/github-snake.svg" alt="a snake eating my contribution graph" />
+</picture>
+
+*The snake eats my commits so I don't have to.*
+
+![footer](https://capsule-render.vercel.app/api?type=waving&height=90&color=3C3B6E&section=footer)
+
+</div>
