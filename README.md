@@ -2,7 +2,7 @@
 
 ![banner](https://capsule-render.vercel.app/api?type=waving&height=170&color=3C3B6E&text=Igor%20Vuta&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=software%20developer&descSize=18&descAlignY=58&animation=fadeIn)
 
-[![Typing intro](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1200&center=true&vCenter=true&width=560&color=C15F3C&lines=Python+%C2%B7+TypeScript+%C2%B7+FastAPI+%C2%B7+Next.js;backends%2C+and+the+web+apps+on+top+of+them;a+result+without+a+distribution+is+an+anecdote)](https://igor-vuta.github.io/portfolio/)
+[![Typing intro](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1200&center=true&vCenter=true&width=560&color=C15F3C&lines=Python+%C2%B7+TypeScript+%C2%B7+FastAPI+%C2%B7+Next.js;backends%2C+and+the+web+apps;a+result+without+a+recognition+is+a+forgotten+story)](https://igor-vuta.github.io/portfolio/)
 
 First-Class BSc (Hons) Computer Science · De Montfort University, Leicester, UK
 
@@ -14,7 +14,7 @@ First-Class BSc (Hons) Computer Science · De Montfort University, Leicester, UK
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Eagle.png" width="52" alt="eagle" />
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Statue%20of%20Liberty.png" width="52" alt="Statue of Liberty" />
 
-*Life, liberty, and the pursuit of reproducible benchmarks.*
+*Life, liberty, and the pursuit of reproducible applications.*
 
 </div>
 
@@ -22,7 +22,7 @@ First-Class BSc (Hons) Computer Science · De Montfort University, Leicester, UK
 
 ## Hi <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="30" alt="waving hand" />
 
-I write backends and the web apps that sit on top of them, and I have an unreasonable soft spot for the part most people skip: proving the thing actually works.
+I write backends and the web apps that lay on top of them, and I have an unreasonable soft spot for the part most people skip: proving the thing actually works.
 
 A benchmark from a single run tells you almost nothing — change the seed and it can tell you the opposite. So when I claim my optimiser beats a greedy baseline, that number comes from 120 scenarios × 30 seeds, reported as a mean with the spread next to it. A result without a distribution is just an anecdote with good lighting.
 
