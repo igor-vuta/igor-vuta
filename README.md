@@ -7,7 +7,7 @@
 First-Class BSc (Hons) Computer Science · De Montfort University, Leicester, UK
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-igor--vuta.github.io-C15F3C?style=for-the-badge&logo=github&logoColor=white)](https://igor-vuta.github.io/portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-igor--vuta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/igor-vuta-b88017390)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-igor--vuta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/igor-vuta)
 [![Email](https://img.shields.io/badge/Email-igor__vuta%40proton.me-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:igor_vuta@proton.me)
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Fireworks.png" width="52" alt="fireworks" />
