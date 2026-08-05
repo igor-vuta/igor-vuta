@@ -51,10 +51,11 @@ Also 51 pytest tests (TDD on the engine) and OWASP-aligned security — Argon2id
 
 > Heads up: the API sits on a free tier and falls asleep. Open the register page and give it ~90 seconds to wake up before assuming it's broken.
 
-### Everything else <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" width="26" alt="sparkles" />
+### All the repos <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" width="26" alt="sparkles" />
 
 | Project | What it is | Live |
 |---|---|---|
+| [intelli-factory](https://github.com/igor-vuta/intelli-factory) | Supply-chain matching platform — NSGA-II optimiser (DEAP), FastAPI, PostgreSQL, Next.js | [Visit](https://intelli-factory-frontend.vercel.app/) |
 | [portfolio](https://github.com/igor-vuta/portfolio) | Editorial one-pager. Hand-rolled animations, zero UI libraries | [Visit](https://igor-vuta.github.io/portfolio/) |
 | [todo-webapp-refactored](https://github.com/igor-vuta/todo-webapp-refactored) | Full-stack task manager — PHP 8.2, MySQL, JWT, shared group lists, Docker | [Visit](https://todo-app-production-5509.up.railway.app/) |
 | [drivePro-website](https://github.com/igor-vuta/drivePro-website) | Bilingual (RU/KK) site for an equipment-hire company | [Visit](https://igor-vuta.github.io/drivePro-website/) |
