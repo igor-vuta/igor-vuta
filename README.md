@@ -1,8 +1,19 @@
+<!-- project-presentation:start -->
+
+![Igor Vuta — Python, TypeScript and the web apps built around them](.github/readme-header.svg)
+
+**[Portfolio](https://igor-vuta.github.io/portfolio/)** · [Repository activity](https://github.com/igor-vuta/igor-vuta/activity)
+
+[![Last commit](https://img.shields.io/github/last-commit/igor-vuta/igor-vuta?style=flat-square&color=6366f1)](https://github.com/igor-vuta/igor-vuta/commits)
+[![Repository size](https://img.shields.io/github/repo-size/igor-vuta/igor-vuta?style=flat-square&color=6366f1)](https://github.com/igor-vuta/igor-vuta)
+
+**12** Public repositories · **14** GitHub language categories · **First-class** BSc (Hons) Computer Science
+
+*Project facts checked 2 October 2026. Activity badges update from GitHub.*
+
+<!-- project-presentation:end -->
+
 <div align="center">
-
-![banner](https://capsule-render.vercel.app/api?type=waving&height=170&color=3C3B6E&text=Igor%20Vuta&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=software%20developer&descSize=18&descAlignY=58&animation=fadeIn)
-
-[![Typing intro](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1200&center=true&vCenter=true&width=560&color=C15F3C&lines=Python+%C2%B7+TypeScript+%C2%B7+FastAPI+%C2%B7+Next.js;backends%2C+and+the+web+apps;a+result+without+a+recognition+is+a+forgotten+story)](https://igor-vuta.github.io/portfolio/)
 
 First-Class BSc (Hons) Computer Science · De Montfort University, Leicester, UK
 
@@ -22,7 +33,7 @@ First-Class BSc (Hons) Computer Science · De Montfort University, Leicester, UK
 
 ## Hi <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="30" alt="waving hand" />
 
-I write backends and the web apps that lay on top of them, and I have an unreasonable soft spot for the part most people skip: proving the thing actually works.
+I write backends and the web apps that run on top of them, and I have an unreasonable soft spot for the part most people skip: proving the thing actually works.
 
 A benchmark from a single run tells you almost nothing — change the seed and it can tell you the opposite. So when I claim my optimiser beats a greedy baseline, that number comes from 120 scenarios × 30 seeds, reported as a mean with the spread next to it. A result without a distribution is just an anecdote with good lighting.
 
@@ -32,9 +43,9 @@ That habit came out of my degree and never left. Give me a dataset and I'll happ
 
 ### Intelli-Factory — final-year project
 
-A supply-chain matching platform: FastAPI + PostgreSQL backend running an **NSGA-II genetic algorithm** (DEAP), with a Next.js/TypeScript frontend.
+A supply-chain matching platform with a **FastAPI + PostgreSQL** backend and a **Next.js/TypeScript** frontend. It ranks manufacturer–logistics offers by a customer-weighted cost, delivery-time and reliability score; a DEAP genetic search cross-checks that score against a greedy cheapest-first baseline.
 
-The interesting part isn't the stack, it's the trade-off. Cost, delivery time and reliability all pull against each other, so there's no single "best" answer — you get a Pareto front and then have to decide what you're actually optimising for. Measured over **3,600 evaluations** (120 scenarios × 30 seeds) against the production engine code:
+The interesting part is the trade-off: faster and more reliable offers can cost more. The customer chooses the weights; the deterministic mode exhaustively ranks the available offers, so the genetic search can match that score but cannot improve its optimum. The recorded benchmark covers **3,600 evaluations** (120 scenarios × 30 seeds) against the engine code:
 
 | Metric | Greedy baseline | Optimised | Change |
 |---|---|---|---|
@@ -43,26 +54,38 @@ The interesting part isn't the stack, it's the trade-off. Cost, delivery time an
 | Reliability | 0.824 | 0.891 | **+8.1%** |
 | Raw cost | 21,296 KZT | 51,648 KZT | +142.5% — a deliberate trade |
 
-Pareto-front hypervolume **0.852 ± 0.12**, converging around generations 50–60. Feasibility **100%** across every scenario. Response time **0.069 s ± 0.015 s**. Runs are seeded, so the numbers reproduce.
+These are recorded benchmark results, not a promise about every real supply chain. The seeded scenarios and exported measurements make the comparison inspectable.
 
-Also 51 pytest tests (TDD on the engine) and OWASP-aligned security — Argon2id, server-side sessions, rate limiting.
+The engine has a pytest regression suite; the application uses Argon2id, server-side sessions and rate limiting. [Recorded benchmark data](https://github.com/igor-vuta/intelli-factory/blob/main/frontend/public/data/benchmark-showcase.json) includes the scenario counts, seeds and measured trade-offs.
 
-**[Live demo](https://intelli-factory-frontend.vercel.app/)** · **[API docs](https://intelli-factory-api.onrender.com/docs)** · **[Code](https://github.com/igor-vuta/intelli-factory)**
+**[Live demo](https://intelli-factory.duckdns.org/)** · **[API docs](https://intelli-factory.duckdns.org/api/docs)** · **[Code](https://github.com/igor-vuta/intelli-factory)**
 
-> Heads up: the API sits on a free tier and falls asleep. Open the register page and give it ~90 seconds to wake up before assuming it's broken.
-
-### All the repos <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" width="26" alt="sparkles" />
+### Applications and tools <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" width="26" alt="sparkles" />
 
 | Project | What it is | Live |
 |---|---|---|
-| [intelli-factory](https://github.com/igor-vuta/intelli-factory) | Supply-chain matching platform — NSGA-II optimiser (DEAP), FastAPI, PostgreSQL, Next.js | [Visit](https://intelli-factory-frontend.vercel.app/) |
-| [portfolio](https://github.com/igor-vuta/portfolio) | Editorial one-pager. Hand-rolled animations, zero UI libraries | [Visit](https://igor-vuta.github.io/portfolio/) |
-| [todo-webapp-refactored](https://github.com/igor-vuta/todo-webapp-refactored) | Full-stack task manager — PHP 8.2, MySQL, JWT, shared group lists, Docker | [Visit](https://todo-app-production-5509.up.railway.app/) |
+| [intelli-factory](https://github.com/igor-vuta/intelli-factory) | Weighted supply-chain matching — FastAPI, PostgreSQL, Next.js, DEAP cross-check | [Visit](https://intelli-factory.duckdns.org/) |
+| [DrivePro_2](https://github.com/igor-vuta/DrivePro_2) | Navigation-first Almaty carpooling PWA with route-based matching | [Visit](https://drivepro-almaty.duckdns.org/) |
+| [portfolio](https://github.com/igor-vuta/portfolio) | Interactive portfolio with a 3D project showcase | [Visit](https://igor-vuta.github.io/portfolio/) |
+| [todo-webapp-refactored](https://github.com/igor-vuta/todo-webapp-refactored) | PHP + MySQL task manager with shared lists and JWT authentication | [Run locally](https://github.com/igor-vuta/todo-webapp-refactored#readme) |
 | [drivePro-website](https://github.com/igor-vuta/drivePro-website) | Bilingual (RU/KK) site for an equipment-hire company | [Visit](https://igor-vuta.github.io/drivePro-website/) |
 | [currency-exchange-bot](https://github.com/igor-vuta/currency-exchange-bot) | Button-only Telegram bot, API with a scraper fallback | [@currenvy_bot](https://t.me/currenvy_bot_for_demo_bot) |
 | [vue-folder-tree](https://github.com/igor-vuta/vue-folder-tree) | Recursive Vue 3 tree component — keyboard nav, ARIA, no dependencies | [Visit](https://igor-vuta.github.io/vue-folder-tree/) |
 | [react-starter-pro](https://github.com/igor-vuta/react-starter-pro) | React 19 + Vite starter with the lint/format/hooks/CI boring bits already done | [Visit](https://igor-vuta.github.io/react-starter-pro/) |
 | [qubly-landing](https://github.com/igor-vuta/qubly-landing) | Older pixel-perfect landing page. Plain HTML, CSS, jQuery | [Visit](https://igor-vuta.github.io/qubly-landing/) |
+
+### Coursework
+
+| Project | What it demonstrates | Try it |
+|---|---|---|
+| [student-course-hub](https://github.com/igor-vuta/student-course-hub) | Server-rendered course catalogue and admin CMS with Deno, Oak and SQLite | [Local setup](https://github.com/igor-vuta/student-course-hub#readme) |
+| [module-chooser-javafx](https://github.com/igor-vuta/module-chooser-javafx) | JavaFX desktop module selection, MVC and credit tracking | [Desktop setup](https://github.com/igor-vuta/module-chooser-javafx#readme) |
+
+## Code at a glance
+
+![Language distribution across public repositories](.github/languages.svg)
+
+*Snapshot: 2 October 2026. GitHub language bytes across public repositories; this shows repository composition, not proficiency or time spent.*
 
 ## What I reach for
 
@@ -80,7 +103,7 @@ Alongside those: DEAP for evolutionary algorithms, pandas and NumPy when I'm pok
 
 ## Currently <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkler.png" width="30" alt="sparkler" />
 
-Looking for **entry-level software or web developer roles in the UK**. I'm on the Graduate Route with full-time work rights, so no sponsorship needed.
+Looking for **entry-level software and web development roles** where I can build useful applications, learn from experienced engineers and test my work properly.
 
 Certified: Meta Front-End Developer · Palo Alto Cybersecurity Foundation · Red Hat RH124.
 
