@@ -13,6 +13,12 @@
 
 <!-- project-presentation:end -->
 
+<!-- project-pattern:start -->
+
+![Pixel line monogram spelling the initials I and V.](.github/project-pattern.svg)
+
+<!-- project-pattern:end -->
+
 <div align="center">
 
 First-Class BSc (Hons) Computer Science · De Montfort University, Leicester, UK
