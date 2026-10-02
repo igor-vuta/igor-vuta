@@ -62,7 +62,7 @@ The engine has a pytest regression suite; the application uses Argon2id, server-
 
 ### Applications and tools <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" width="26" alt="sparkles" />
 
-| Project | What it is | Live |
+| Project | What it is | Demo / setup |
 |---|---|---|
 | [intelli-factory](https://github.com/igor-vuta/intelli-factory) | Weighted supply-chain matching — FastAPI, PostgreSQL, Next.js, DEAP cross-check | [Visit](https://intelli-factory.duckdns.org/) |
 | [DrivePro_2](https://github.com/igor-vuta/DrivePro_2) | Navigation-first Almaty carpooling PWA with route-based matching | [Visit](https://drivepro-almaty.duckdns.org/) |
@@ -70,9 +70,9 @@ The engine has a pytest regression suite; the application uses Argon2id, server-
 | [todo-webapp-refactored](https://github.com/igor-vuta/todo-webapp-refactored) | PHP + MySQL task manager with shared lists and JWT authentication | [Run locally](https://github.com/igor-vuta/todo-webapp-refactored#readme) |
 | [drivePro-website](https://github.com/igor-vuta/drivePro-website) | Bilingual (RU/KK) site for an equipment-hire company | [Visit](https://igor-vuta.github.io/drivePro-website/) |
 | [currency-exchange-bot](https://github.com/igor-vuta/currency-exchange-bot) | Button-only Telegram bot, API with a scraper fallback | [@currenvy_bot](https://t.me/currenvy_bot_for_demo_bot) |
-| [vue-folder-tree](https://github.com/igor-vuta/vue-folder-tree) | Recursive Vue 3 tree component — keyboard nav, ARIA, no dependencies | [Visit](https://igor-vuta.github.io/vue-folder-tree/) |
+| [vue-folder-tree](https://github.com/igor-vuta/vue-folder-tree) | Animated Vue 3 folder tree with selection, keyboard navigation and ARIA roles | [Visit](https://igor-vuta.github.io/vue-folder-tree/) |
 | [react-starter-pro](https://github.com/igor-vuta/react-starter-pro) | React 19 + Vite starter with the lint/format/hooks/CI boring bits already done | [Visit](https://igor-vuta.github.io/react-starter-pro/) |
-| [qubly-landing](https://github.com/igor-vuta/qubly-landing) | Older pixel-perfect landing page. Plain HTML, CSS, jQuery | [Visit](https://igor-vuta.github.io/qubly-landing/) |
+| [qubly-landing](https://github.com/igor-vuta/qubly-landing) | Responsive landing page. Plain HTML, CSS, jQuery | [Visit](https://igor-vuta.github.io/qubly-landing/) |
 
 ### Coursework
 
