@@ -71,7 +71,7 @@ The engine has a pytest regression suite; the application uses Argon2id, server-
 | Project | What it is | Demo / setup |
 |---|---|---|
 | [intelli-factory](https://github.com/igor-vuta/intelli-factory) | Weighted supply-chain matching — FastAPI, PostgreSQL, Next.js, DEAP cross-check | [Visit](https://intelli-factory.duckdns.org/) |
-| [DrivePro_2](https://github.com/igor-vuta/DrivePro_2) | Navigation-first Almaty carpooling PWA with route-based matching | [Visit](https://drivepro-almaty.duckdns.org/) |
+| [DrivePro_2](https://github.com/igor-vuta/DrivePro_2) | Navigation-first Almaty carpooling PWA with route-based matching | [Visit](https://app.drivepro.dev/) |
 | [portfolio](https://github.com/igor-vuta/portfolio) | Interactive portfolio with a 3D project showcase | [Visit](https://igor-vuta.github.io/portfolio/) |
 | [todo-webapp-refactored](https://github.com/igor-vuta/todo-webapp-refactored) | PHP + MySQL task manager with shared lists and JWT authentication | [Run locally](https://github.com/igor-vuta/todo-webapp-refactored#readme) |
 | [drivePro-website](https://github.com/igor-vuta/drivePro-website) | Bilingual (RU/KK) site for an equipment-hire company | [Visit](https://igor-vuta.github.io/drivePro-website/) |
